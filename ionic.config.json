@@ -1,0 +1,7 @@
+{
+  "name": "places app (standalone)",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
