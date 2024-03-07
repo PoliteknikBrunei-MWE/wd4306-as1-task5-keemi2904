@@ -13,4 +13,8 @@ export const routes: Routes = [
     path: 'brunei',
     loadComponent: () => import('./brunei/brunei.page').then( m => m.BruneiPage)
   },
+  {
+    path: 'tutong',
+    loadComponent: () => import('./tutong/tutong.page').then( m => m.TutongPage)
+  },
 ];
