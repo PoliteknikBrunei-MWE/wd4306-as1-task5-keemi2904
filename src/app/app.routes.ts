@@ -17,4 +17,8 @@ export const routes: Routes = [
     path: 'tutong',
     loadComponent: () => import('./tutong/tutong.page').then( m => m.TutongPage)
   },
+  {
+    path: 'belait',
+    loadComponent: () => import('./belait/belait.page').then( m => m.BelaitPage)
+  },
 ];
