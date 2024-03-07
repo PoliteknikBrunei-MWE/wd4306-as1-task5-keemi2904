@@ -21,4 +21,8 @@ export const routes: Routes = [
     path: 'belait',
     loadComponent: () => import('./belait/belait.page').then( m => m.BelaitPage)
   },
+  {
+    path: 'temburong',
+    loadComponent: () => import('./temburong/temburong.page').then( m => m.TemburongPage)
+  },
 ];
